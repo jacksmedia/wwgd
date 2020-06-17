@@ -1,21 +1,6 @@
-Find the repository [on GitHub](https://github.com/fabe/gatsby-universal).
+## Support freedom and destroy the fascist wannabe GOP
+# Donations [ActBlue](https://secure.actblue.com/donate/brandnewcongress).
 
 ```
-# Installation
-gatsby new my-site https://github.com/fabe/gatsby-universal
-
-# To develop
-yarn develop
-
-# To build
-yarn build
-
-# To test SSR (for Lighthouse etc.)
-yarn ssr
-
-# To format JS (precommit)
-yarn format
-
-# To generate favicons (included in `build`)
-yarn build:favicons
+## This site will become a voter resource for the November elections. Stay tuned.
 ```
