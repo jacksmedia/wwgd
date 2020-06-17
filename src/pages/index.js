@@ -5,6 +5,7 @@ import Box from 'components/box';
 import Title from 'components/title';
 import Gallery from 'components/gallery';
 import IOExample from 'components/io-example';
+import Img from 'gatsby-image';
 import Modal from 'containers/modal';
 import { graphql } from 'gatsby';
 
@@ -15,12 +16,9 @@ const Index = ({ data }) => (
         {data.homeJson.content.childMarkdownRemark.rawMarkdownBody}
       </Title>
       <Modal>
-        <video
-          src="https://i.imgur.com/gzFqNSW.mp4"
-          playsInline
-          loop
-          autoPlay
-          muted
+        <Img
+          fluid={data.homeJson.tat ? data.homeJson.tat.childImageSharp.fluid : {}}
+          alt="If we nominate Trump, we will get destroyed and we will deserve it. Lindsey Graham, 05/03/2016"
         />
       </Modal>
     </Box>
@@ -40,6 +38,13 @@ export const query = graphql`
   query HomepageQuery {
     homeJson {
       title
+      tat {
+        childImageSharp {
+          fluid(maxHeight: 500, quality: 90) {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
       content {
         childMarkdownRemark {
           html

@@ -1,1 +1,1 @@
-"If we nominate Trump, we will get destroyed and we will deserve it"
+"If we nominate Trump, we will get destroyed.......and we will deserve it"

@@ -1,6 +1,7 @@
 {
   "title": "Home",
   "content": "intro.md",
+  "tat": "../images/the-actual-tweet.png",
   "gallery": [{
     "title": "React Context",
     "copy": "For global styles.",

@@ -4,7 +4,7 @@ module.exports = {
   siteTitle: `We Will Get Destroyed 2020`,
   siteTitleShort: `GetDestroyed`,
   siteDescription: `.`,
-  siteUrl: `https://wwgd2020.netlify.app`,
+  siteUrl: `https://wwgd.netlify.app`,
   themeColor: `#000`,
   backgroundColor: `#fff`,
   pathPrefix: null,
