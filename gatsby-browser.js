@@ -1,6 +1,9 @@
 import React from 'react';
 import AppProvider from 'store/provider';
 import wrapPageElementWithTransition from 'helpers/wrapPageElement';
+// custom typefaces
+import 'typeface-playfair-display';
+import 'typeface-montserrat';
 
 // React Context in Browser
 // eslint-disable-next-line react/prop-types

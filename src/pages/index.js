@@ -17,7 +17,9 @@ const Index = ({ data }) => (
       </Title>
       <Modal>
         <Img
-          fluid={data.homeJson.tat ? data.homeJson.tat.childImageSharp.fluid : {}}
+          fluid={
+            data.homeJson.tat ? data.homeJson.tat.childImageSharp.fluid : {}
+          }
           alt="If we nominate Trump, we will get destroyed and we will deserve it. Lindsey Graham, 05/03/2016"
         />
       </Modal>
