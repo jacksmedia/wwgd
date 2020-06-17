@@ -1,16 +1,16 @@
 const path = require('path');
 
 module.exports = {
-  siteTitle: `Gatsby Universal`,
-  siteTitleShort: `GatsbyU`,
-  siteDescription: `An opinionated starter for Gatsby.`,
-  siteUrl: `https://gu.fabianschultz.com`,
+  siteTitle: `We Will Get Destroyed 2020`,
+  siteTitleShort: `GetDestroyed`,
+  siteDescription: `.`,
+  siteUrl: `https://wwgd2020.netlify.app`,
   themeColor: `#000`,
   backgroundColor: `#fff`,
   pathPrefix: null,
   logo: path.resolve(__dirname, 'src/images/icon.png'),
   social: {
-    twitter: `gatsbyjs`,
+    twitter: `wwgd2020`,
     fbAppId: `966242223397117`,
   },
 };
