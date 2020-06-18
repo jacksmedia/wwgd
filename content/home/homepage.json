@@ -111,10 +111,10 @@
     "image": "../images/gallery/rounds.jpeg"
   },
   {
-    "title": "Lamar Alexander",
-    "twitter": "https://twitter.com/SenAlexander",
+    "title": "Bill Hagerty",
+    "twitter": "https://twitter.com/BillHagertyTN",
     "copy": "TN",
-    "image": "../images/gallery/alexander.jpeg"
+    "image": "../images/gallery/hagerty.jpeg"
   },
   {
     "title": "John Cornyn",
@@ -129,9 +129,9 @@
     "image": "../images/gallery/capito.jpeg"
   },
   {
-    "title": "Mike Enzi",
-    "twitter": "https://twitter.com/SenatorEnzi",
+    "title": "Cynthia Lummis",
+    "twitter": "https://twitter.com/CynthiaMLummis",
     "copy": "WY",
-    "image": "../images/gallery/enzi.jpeg"
+    "image": "../images/gallery/lummis.jpeg"
   }]
 }
