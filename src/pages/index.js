@@ -55,6 +55,7 @@ export const query = graphql`
         title
         twitter
         copy
+        status
         image {
           childImageSharp {
             fluid(maxHeight: 500, quality: 90) {

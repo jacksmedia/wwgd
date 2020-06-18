@@ -6,132 +6,154 @@
     "title": "Dan Sullivan",
     "twitter": "https://twitter.com/SenDanSullivan",
     "copy": "AK",
+    "status": "incumbent",
     "image": "../images/gallery/sullivan.jpeg"
   },
   {
     "title": "Pat Roberts",
     "twitter": "https://www.roberts.senate.gov/public/",
     "copy": "AR",
+    "status": "incumbent",
     "image": "../images/gallery/roberts.jpeg"
   },
   {
     "title": "Tom Cotton",
     "twitter": "https://twitter.com/SenTomCotton",
     "copy": "AR",
+    "status": "incumbent",
     "image": "../images/gallery/cotton.jpeg"
   },
   {
     "title": "Martha McSally",
     "twitter": "https://twitter.com/marthamcsally",
     "copy": "AZ",
+    "status": "incumbent",
     "image": "../images/gallery/mcsally.jpeg"
   },
   {
     "title": "Cory Gardner",
     "twitter": "https://twitter.com/SenCoryGardner",
     "copy": "CO",
+    "status": "incumbent",
     "image": "../images/gallery/gardner.jpeg"
   },
   {
     "title": "David Perdue",
     "twitter": "https://twitter.com/sendavidperdue",
     "copy": "GA",
+    "status": "incumbent",
     "image": "../images/gallery/perdue.jpeg"
   },
   {
     "title": "Joni Ernst",
     "twitter": "https://twitter.com/SenJoniErnst",
     "copy": "IA",
+    "status": "incumbent",
     "image": "../images/gallery/ernst.jpeg"
   },
   {
     "title": "Jim Risch",
     "twitter": "https://twitter.com/SenatorRisch",
     "copy": "ID",
+    "status": "incumbent",
     "image": "../images/gallery/risch.jpeg"
   },
   {
     "title": "Mitch McConnell",
     "twitter": "https://twitter.com/senatemajldr",
     "copy": "KY",
+    "status": "incumbent",
     "image": "../images/gallery/mcconnell.jpeg"
   },
   {
     "title": "Bill Cassidy",
     "twitter": "https://twitter.com/SenBillCassidy",
     "copy": "LA",
+    "status": "incumbent",
     "image": "../images/gallery/cassidy.jpeg"
   },
   {
     "title": "Susan Collins",
     "twitter": "https://twitter.com/SenatorCollins",
     "copy": "ME",
+    "status": "incumbent",
     "image": "../images/gallery/collins.jpeg"
   },
   {
     "title": "Cindy Hyde-Smith",
     "twitter": "https://twitter.com/cindyhydesmith",
     "copy": "MS",
+    "status": "incumbent",
     "image": "../images/gallery/hyde-smith.jpeg"
   },
   {
     "title": "Steve Daines",
     "twitter": "https://twitter.com/SteveDaines",
     "copy": "MT",
+    "status": "incumbent",
     "image": "../images/gallery/daines.jpeg"
   },
   {
     "title": "Thom Tillis",
     "twitter": "https://twitter.com/SenThomTillis",
     "copy": "NC",
+    "status": "incumbent",
     "image": "../images/gallery/tillis.jpeg"
   },
   {
     "title": "Ben Sasse",
     "twitter": "https://twitter.com/SenSasse",
     "copy": "NE",
+    "status": "incumbent",
     "image": "../images/gallery/sasse.jpeg"
   },
   {
     "title": "Jim Inhofe",
     "twitter": "https://twitter.com/JimInhofe",
     "copy": "OK",
+    "status": "incumbent",
     "image": "../images/gallery/inhofe.jpeg"
   },
   {
     "title": "Lindsey Graham",
     "twitter": "https://twitter.com/GrahamBlog",
     "copy": "SC",
+    "status": "incumbent",
     "image": "../images/gallery/graham.jpeg"
   },
   {
     "title": "Mike Rounds",
     "twitter": "https://twitter.com/RoundsforSenate",
     "copy": "SD",
+    "status": "incumbent",
     "image": "../images/gallery/rounds.jpeg"
   },
   {
     "title": "Bill Hagerty",
     "twitter": "https://twitter.com/BillHagertyTN",
     "copy": "TN",
+    "status": "candidate",
     "image": "../images/gallery/hagerty.jpeg"
   },
   {
     "title": "John Cornyn",
     "twitter": "https://twitter.com/JohnCornyn",
     "copy": "TX",
+    "status": "incumbent",
     "image": "../images/gallery/cornyn.jpeg"
   },
   {
     "title": "Shelley Moore Capito",
     "twitter": "https://twitter.com/sencapito",
     "copy": "WV",
+    "status": "incumbent",
     "image": "../images/gallery/capito.jpeg"
   },
   {
     "title": "Cynthia Lummis",
     "twitter": "https://twitter.com/CynthiaMLummis",
     "copy": "WY",
+    "status": "candidate",
     "image": "../images/gallery/lummis.jpeg"
   }]
 }
