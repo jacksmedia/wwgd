@@ -3,18 +3,135 @@
   "content": "intro.md",
   "tat": "../images/the-actual-tweet.png",
   "gallery": [{
-    "title": "React Context",
-    "copy": "For global styles.",
-    "image": "../images/gallery/react-context.jpg"
+    "title": "Dan Sullivan",
+    "twitter": "https://twitter.com/SenDanSullivan",
+    "copy": "AK",
+    "image": "../images/gallery/sullivan.jpeg"
   },
   {
-    "title": "Page Transitions",
-    "copy": "Component-based for easy usage.",
-    "image": "../images/gallery/page-transitions.jpg"
+    "title": "Pat Roberts",
+    "twitter": "https://www.roberts.senate.gov/public/",
+    "copy": "AR",
+    "image": "../images/gallery/roberts.jpeg"
   },
   {
-    "title": "Intersection Observer",
-    "copy": "Including a polyfill for Safari.",
-    "image": "../images/gallery/intersection-observer.jpg"
+    "title": "Tom Cotton",
+    "twitter": "https://twitter.com/SenTomCotton",
+    "copy": "AR",
+    "image": "../images/gallery/cotton.jpeg"
+  },
+  {
+    "title": "Martha McSally",
+    "twitter": "https://twitter.com/marthamcsally",
+    "copy": "AZ",
+    "image": "../images/gallery/mcsally.jpeg"
+  },
+  {
+    "title": "Cory Gardner",
+    "twitter": "https://twitter.com/SenCoryGardner",
+    "copy": "CO",
+    "image": "../images/gallery/gardner.jpeg"
+  },
+  {
+    "title": "David Perdue",
+    "twitter": "https://twitter.com/sendavidperdue",
+    "copy": "GA",
+    "image": "../images/gallery/perdue.jpeg"
+  },
+  {
+    "title": "Joni Ernst",
+    "twitter": "https://twitter.com/SenJoniErnst",
+    "copy": "IA",
+    "image": "../images/gallery/ernst.jpeg"
+  },
+  {
+    "title": "Jim Risch",
+    "twitter": "https://twitter.com/SenatorRisch",
+    "copy": "ID",
+    "image": "../images/gallery/risch.jpeg"
+  },
+  {
+    "title": "Mitch McConnell",
+    "twitter": "https://twitter.com/senatemajldr",
+    "copy": "KY",
+    "image": "../images/gallery/mcconnell.jpeg"
+  },
+  {
+    "title": "Bill Cassidy",
+    "twitter": "https://twitter.com/SenBillCassidy",
+    "copy": "LA",
+    "image": "../images/gallery/cassidy.jpeg"
+  },
+  {
+    "title": "Susan Collins",
+    "twitter": "https://twitter.com/SenatorCollins",
+    "copy": "ME",
+    "image": "../images/gallery/collins.jpeg"
+  },
+  {
+    "title": "Cindy Hyde-Smith",
+    "twitter": "https://twitter.com/cindyhydesmith",
+    "copy": "MS",
+    "image": "../images/gallery/hyde-smith.jpeg"
+  },
+  {
+    "title": "Steve Daines",
+    "twitter": "https://twitter.com/SteveDaines",
+    "copy": "MT",
+    "image": "../images/gallery/daines.jpeg"
+  },
+  {
+    "title": "Thom Tillis",
+    "twitter": "https://twitter.com/SenThomTillis",
+    "copy": "NC",
+    "image": "../images/gallery/tillis.jpeg"
+  },
+  {
+    "title": "Ben Sasse",
+    "twitter": "https://twitter.com/SenSasse",
+    "copy": "NE",
+    "image": "../images/gallery/sasse.jpeg"
+  },
+  {
+    "title": "Jim Inhofe",
+    "twitter": "https://twitter.com/JimInhofe",
+    "copy": "OK",
+    "image": "../images/gallery/inhofe.jpeg"
+  },
+  {
+    "title": "Lindsey Graham",
+    "twitter": "https://twitter.com/GrahamBlog",
+    "copy": "SC",
+    "image": "../images/gallery/graham.jpeg"
+  },
+  {
+    "title": "Mike Rounds",
+    "twitter": "https://twitter.com/RoundsforSenate",
+    "copy": "SD",
+    "image": "../images/gallery/rounds.jpeg"
+  },
+  {
+    "title": "Lamar Alexander",
+    "twitter": "https://twitter.com/SenAlexander",
+    "copy": "TN",
+    "image": "../images/gallery/alexander.jpeg"
+  },
+  {
+    "title": "John Cornyn",
+    "twitter": "https://twitter.com/JohnCornyn",
+    "copy": "TX",
+    "image": "../images/gallery/cornyn.jpeg"
+  },
+  {
+    "title": "Shelley Moore Capito",
+    "twitter": "https://twitter.com/sencapito",
+    "copy": "WV",
+    "image": "../images/gallery/capito.jpeg"
+  },
+  {
+    "title": "Mike Enzi",
+    "twitter": "https://twitter.com/SenatorEnzi",
+    "copy": "WY",
+    "image": "../images/gallery/enzi.jpeg"
   }]
 }

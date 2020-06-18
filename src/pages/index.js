@@ -23,7 +23,7 @@ const Index = ({ data }) => (
         />
       </Modal>
     </Box>
-    <div style={{ height: '30vh' }} />
+    <div style={{ height: '20vh' }} />
     <Gallery items={data.homeJson.gallery} />
   </Layout>
 );
@@ -53,6 +53,7 @@ export const query = graphql`
       }
       gallery {
         title
+        twitter
         copy
         image {
           childImageSharp {
