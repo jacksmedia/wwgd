@@ -54,8 +54,12 @@ export const query = graphql`
       gallery {
         title
         twitter
-        copy
+        state
         status
+        challenger
+        tw1tter
+        website
+        actblue
         image {
           childImageSharp {
             fluid(maxHeight: 500, quality: 90) {
