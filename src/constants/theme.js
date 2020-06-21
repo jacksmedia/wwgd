@@ -1,2 +1,2 @@
-export const accent = '#663300';
-export const linkcolor = '#cc0000';
+export const accent = '#440000';
+export const linkcolor = '#ff0000';
