@@ -19,9 +19,12 @@ const Item = ({
     {({ isVisible }) => (
       <Container isVisible={isVisible}>
         <figure>
-          <Img fluid={image ? image.childImageSharp.fluid : {}} alt={villain} />
+          <Img fluid={image ? image.childImageSharp.fluid : {}}
+            alt={villain}
+            className="circlized"
+          />
           <figcaption>
-            <Title>{villain},</Title>
+            <Title>{villain}</Title>
             <Title>
               {state}&nbsp;{status}
             </Title>

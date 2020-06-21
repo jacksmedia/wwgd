@@ -89,6 +89,10 @@ export default createGlobalStyle`
   }
 
   p {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .circlized {
+    border-radius: 50%;
   }
 `;
