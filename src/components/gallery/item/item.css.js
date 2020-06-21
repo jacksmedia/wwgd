@@ -9,21 +9,30 @@ export const Container = styled.div`
   position: relative;
   text-align: center;
   color: #fff;
-  transition: background-color 0.3s ease;
+  transition: background-color 3.3s ease;
 
   background-color: ${({ isVisible }) => (isVisible ? accent : ' #333')};
 `;
 
-export const Title = styled.span`
+export const Title = styled.div`
   display: block;
   font-size: 2rem;
   font-weight: 500;
-  margin: 2rem 2rem 1rem;
+  font-family: playfair-display;
+  margin: 0.5rem 1rem 0.5rem;
+`;
+
+export const Halver = styled.div`
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
 `;
 
 export const Copy = styled.p`
-  color: #757575;
-  margin: 0 2rem 2rem;
+  color: navy;
+  margin: 0 0.2rem 0.2rem;
   font-size: 1.2rem;
 
   ${MEDIA.TABLET`

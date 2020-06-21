@@ -1,9 +1,9 @@
 {
-  "title": "Home",
+  "title": "Home WWGD 2020",
   "content": "intro.md",
   "tat": "../images/the-actual-tweet.png",
   "gallery": [{
-    "title": "Dan Sullivan",
+    "villain": "Dan Sullivan",
     "twitter": "https://twitter.com/SenDanSullivan",
     "state": "AK",
     "status": "incumbent",
@@ -14,84 +14,84 @@
     "actblue": "https://secure.actblue.com/donate/algross_futgen"
   },
   {
-    "title": "Pat Roberts",
+    "villain": "Pat Roberts",
     "twitter": "https://www.roberts.senate.gov/public/",
     "state": "AR",
     "status": "incumbent",
     "image": "../images/gallery/roberts.jpeg",
     "challenger": "Barbara Bollier",
     "tw1tter": "https://twitter.com/BarbaraBollier",
-    "website": "bollierforkansas.com",
+    "website": "http://bollierforkansas.com",
     "actblue": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjsn_HbmYXqAhWCGH0KHf1MD74YABAAGgJwdg&ohost=www.google.com&cid=CAESQeD2qqix90GKFlvBQjWExzidZ0TsxEsQ2f_dW9R2Id7XD2fhdi_ntsNcErh-gZeEGq5i1DWlTDB9XjvgAx0_AM0r&sig=AOD64_0Jg5Tp5QNG7ippnigYLHYEYSAo3w&q=&ved=2ahUKEwi6x-jbmYXqAhUQip4KHbMwBvUQ0Qx6BAgNEAE&adurl="
   },
   {
-    "title": "Tom Cotton",
+    "villain": "Tom Cotton",
     "twitter": "https://twitter.com/SenTomCotton",
     "state": "AR",
     "status": "incumbent",
     "image": "../images/gallery/cotton.jpeg",
     "challenger": "Dan Whitfield",
     "tw1tter": "https://twitter.com/DanWhitCongress",
-    "website": "danwhitcongress.us",
+    "website": "http://danwhitcongress.us",
     "actblue": "https://secure.actblue.com/donate/retakesenate2020"
   },
   {
-    "title": "Martha McSally",
+    "villain": "Martha McSally",
     "twitter": "https://twitter.com/marthamcsally",
     "state": "AZ",
     "status": "incumbent",
     "image": "../images/gallery/mcsally.jpeg",
     "challenger": "Mark Kelly",
     "tw1tter": "https://twitter.com/captmarkkelly",
-    "website": "markkelly.com",
+    "website": "http://markkelly.com",
     "actblue": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjdud7nmIXqAhWcPq0GHeHdDBoYABAAGgJwdg&ohost=www.google.com&cid=CAESQeD2CGu6pjNt3PshuEm1-C1N1FAMYZPs4S4ML_l55S7Hh5swCPT05HHzTqMlz68-DAEmBnRL8lFpZ6iOBSGJErbv&sig=AOD64_2ySd66vq9H10q1gXknwLBmkqYAZQ&q=&ved=2ahUKEwjtodbnmIXqAhUMpp4KHR2tAPAQ0Qx6BAgNEAE&adurl="
   },
   {
-    "title": "Cory Gardner",
+    "villain": "Cory Gardner",
     "twitter": "https://twitter.com/SenCoryGardner",
     "state": "CO",
     "status": "incumbent",
     "image": "../images/gallery/gardner.jpeg",
     "challenger": "John Hickenlooper",
     "tw1tter": "https://twitter.com/Hickenlooper",
-    "website": "hickenlooper.com",
+    "website": "http://hickenlooper.com",
     "actblue": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjS5NTumIXqAhV0GH0KHT9DDm4YABAAGgJwdg&ohost=www.google.com&cid=CAESQeD2IyHdHp7O3FGDZRg9qlWY7OG_eUZG81r1MrW_D9XJ58-sDh5JaWdNqrBrNdWxSALkmYaglGO1l3sWCi1BFlwU&sig=AOD64_1uISY1tbx-YOKvZ7Hf0-DIZ0RQoA&q=&ved=2ahUKEwjp8MrumIXqAhWPr54KHeqVCPgQ0Qx6BAgNEAE&adurl="
   },
   {
-    "title": "David Perdue",
+    "villain": "David Perdue",
     "twitter": "https://twitter.com/sendavidperdue",
     "state": "GA",
     "status": "incumbent",
     "image": "../images/gallery/perdue.jpeg",
     "challenger": "Jon Ossoff",
     "tw1tter": "https://twitter.com/ossoff",
-    "website": "electjon.com",
+    "website": "http://electjon.com",
     "actblue": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwja2_vYloXqAhUSGK0GHWeMAEoYABAAGgJwdg&ohost=www.google.com&cid=CAESQeD2DYsmhmu1traNDCXBXJPCmmvvO6LDOpXRHA-_S45Rp5WPIhhLIoqRlWvcHHk0W0QrYjGyJskHDEWulZDnXQ0w&sig=AOD64_3SgT8RSqYYEaZAVolxpGtCYsjx9A&q=&ved=2ahUKEwivqPLYloXqAhWyHjQIHVn0DLgQ0Qx6BAgOEAE&adurl="
   },
   {
-    "title": "Joni Ernst",
+    "villain": "Joni Ernst",
     "twitter": "https://twitter.com/SenJoniErnst",
     "state": "IA",
     "status": "incumbent",
     "image": "../images/gallery/ernst.jpeg",
     "challenger": "Theresa Greenfield",
     "tw1tter": "https://twitter.com/GreenfieldIowa",
-    "website": "greenfieldforiowa.com",
+    "website": "http://greenfieldforiowa.com",
     "actblue": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwi-xcLxjIXqAhWTFq0GHVzND-AYABAAGgJwdg&ohost=www.google.com&cid=CAESQeD2f1Zr8e9EvsaQoF-G8bAX94rQKWi1X0gg5f9Xi4jeZ9k6hzmdngcNk0YngMeKpE_HHpHc8WnPHRwB5BU99Wk5&sig=AOD64_2M31OxcK30LhjB55r4hTBnE0S0Tg&q=&ved=2ahUKEwiV9rnxjIXqAhVQvZ4KHZJACPEQ0Qx6BAgUEAE&adurl="
   },
   {
-    "title": "Jim Risch",
+    "villain": "Jim Risch",
     "twitter": "https://twitter.com/SenatorRisch",
     "state": "ID",
     "status": "incumbent",
     "image": "../images/gallery/risch.jpeg",
     "challenger": "Paulette Jordan",
     "tw1tter": "https://twitter.com/electpaulette",
-    "website": "pauletteforsenate.com",
+    "website": "http://pauletteforsenate.com",
     "actblue": "https://secure.actblue.com/donate/paulette_futgen"
   },
   {
-    "title": "Mitch McConnell",
+    "villain": "Mitch McConnell",
     "twitter": "https://twitter.com/senatemajldr",
     "state": "KY",
     "status": "incumbent",
@@ -102,7 +102,7 @@
     "actblue": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiu46PDjIXqAhURHq0GHSHmC9sYABACGgJwdg&ohost=www.google.com&cid=CAESQeD2uio5w87yHu0szW2XgnRaEyTGb2ZOh0perYKf4Wt3c1H9-AAH4Z7NAxZW3ltjMU00Y6fdmXFCkUhiYPc5h1Qy&sig=AOD64_3d5CVVvyCfPhisCgb_X4CYvs_vYQ&q=&ved=2ahUKEwjT4prDjIXqAhXE7Z4KHcmOAPEQ0Qx6BAgPEAE&adurl="
   },
   {
-    "title": "Bill Cassidy",
+    "villain": "Bill Cassidy",
     "twitter": "https://twitter.com/SenBillCassidy",
     "state": "LA",
     "status": "incumbent",
@@ -113,7 +113,7 @@
     "actblue": "https://secure.actblue.com/entity/fundraisers/80870"
   },
   {
-    "title": "Susan Collins",
+    "villain": "Susan Collins",
     "twitter": "https://twitter.com/SenatorCollins",
     "state": "ME",
     "status": "incumbent",
@@ -124,7 +124,7 @@
     "actblue": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwig7-CKi4XqAhVQH60GHZFcAvQYABAAGgJwdg&ohost=www.google.com&cid=CAESQeD2OE5OGIOr7dgx4ganiH9OSUzO9xxQf7a6K2d5h2JNsz7On5KgUpBm1YwvopN_p6AO2oXLaCVzpvU95NpLTj1J&sig=AOD64_1cet0xk8yFcdxA_KQDKWi6busC3Q&q=&ved=2ahUKEwiD5NeKi4XqAhX9HzQIHY9zB9cQ0Qx6BAgSEAE&adurl="
   },
   {
-    "title": "Cindy Hyde-Smith",
+    "villain": "Cindy Hyde-Smith",
     "twitter": "https://twitter.com/cindyhydesmith",
     "state": "MS",
     "status": "incumbent",
@@ -135,7 +135,7 @@
     "actblue": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiOyduDl4XqAhXoPa0GHYUGBSgYABAAGgJwdg&ohost=www.google.com&cid=CAESQeD2Uvaebzlbn__KU1AC-ox7ziFV3ZIrzA8DzaaHrVoWHl7Hh49PjRuXC2zZXFINefrRIWUbRgy9icKrUcUyVldy&sig=AOD64_1yQiPWhojgNUcAQ0EoFm-fZCKWgQ&q=&ved=2ahUKEwiWhNODl4XqAhXRLH0KHVijBEoQ0Qx6BAgMEAE&adurl="
   },
   {
-    "title": "Steve Daines",
+    "villain": "Steve Daines",
     "twitter": "https://twitter.com/SteveDaines",
     "state": "MT",
     "status": "incumbent",
@@ -146,7 +146,7 @@
     "actblue": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjx9p6Ql4XqAhVnPq0GHZQhBEUYABAAGgJwdg&ohost=www.google.com&cid=CAESQeD2jMqm-AuQSi_Zm9NYf6WbwpDBdF-Yi9Y2gdQ5Uk6TovLt39LaHy084ECJX0DFMXe1gucAk2gSbNnHjTEe0Ici&sig=AOD64_1zn7ctRmEddUNuTrRoc54WkWI6eQ&q=&ved=2ahUKEwivlZeQl4XqAhXsoFsKHWrhDM4Q0Qx6BAgNEAE&adurl="
   },
   {
-    "title": "Thom Tillis",
+    "villain": "Thom Tillis",
     "twitter": "https://twitter.com/SenThomTillis",
     "state": "NC",
     "status": "incumbent",
@@ -157,7 +157,7 @@
     "actblue": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjs8dTDl4XqAhXiIK0GHWN1DYYYABAAGgJwdg&ohost=www.google.com&cid=CAESQeD21iGM5MUvqWjkJWa-pKESd1hzPmmYY-vglFtNS8WJjrt1d7SFwHRfvSpe4eD4sOy9v-0ovRvmdNyA-q3DQxVq&sig=AOD64_0GPLhNdKTFVWAOxG2gVYzbia7dbg&q=&ved=2ahUKEwiegczDl4XqAhVDrp4KHY0yAO8Q0Qx6BAgWEAE&adurl="
   },
   {
-    "title": "Ben Sasse",
+    "villain": "Ben Sasse",
     "twitter": "https://twitter.com/SenSasse",
     "state": "NE",
     "status": "incumbent",
@@ -168,7 +168,7 @@
     "actblue": "https://secure.actblue.com/entity/fundraisers/60887"
   },
   {
-    "title": "Jim Inhofe",
+    "villain": "Jim Inhofe",
     "twitter": "https://twitter.com/JimInhofe",
     "state": "OK",
     "status": "incumbent",
@@ -179,7 +179,7 @@
     "actblue": "https://secure.actblue.com/entity/fundraisers/88787"
   },
   {
-    "title": "Lindsey Graham",
+    "villain": "Lindsey Graham",
     "twitter": "https://twitter.com/GrahamBlog",
     "state": "SC",
     "status": "incumbent",
@@ -190,7 +190,7 @@
     "actblue": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjhgP3UkYXqAhVEIK0GHcUICxwYABAAGgJwdg&ohost=www.google.com&cid=CAESQeD2nfuXWxfAwQnk8EIDpwKcAZ5e4o9OrHneIyQdqN80xnZA0efUq2r8XX-5mvbApS7KNYpHAV2PGlXHMpJPzpzs&sig=AOD64_2x9_D3J6js0OoR3DIjtD0hayw1ug&q=&ved=2ahUKEwiZ3_PUkYXqAhXJup4KHVnEDngQ0Qx6BAgTEAE&adurl="
   },
   {
-    "title": "Mike Rounds",
+    "villain": "Mike Rounds",
     "twitter": "https://twitter.com/RoundsforSenate",
     "state": "SD",
     "status": "incumbent",
@@ -201,7 +201,7 @@
     "actblue": "https://secure.actblue.com/entity/fundraisers/87451"
   },
   {
-    "title": "Bill Hagerty",
+    "villain": "Bill Hagerty",
     "twitter": "https://twitter.com/BillHagertyTN",
     "state": "TN",
     "status": "candidate",
@@ -212,36 +212,36 @@
     "actblue": "https://secure.actblue.com/entity/fundraisers/49274"
   },
   {
-    "title": "John Cornyn",
+    "villain": "John Cornyn",
     "twitter": "https://twitter.com/JohnCornyn",
     "state": "TX",
     "status": "incumbent",
     "image": "../images/gallery/cornyn.jpeg",
     "challenger": "MJ Hegar",
     "tw1tter": "https://twitter.com/mjhegar",
-    "website": "mjfortexas.com",
+    "website": "http://mjfortexas.com",
     "actblue": "https://secure.actblue.com/donate/ads_gs_aug_dtd?refcode=ads_gs_nat_hc_dtd"
   },
   {
-    "title": "Shelley Moore Capito",
+    "villain": "Shelley Moore Capito",
     "twitter": "https://twitter.com/sencapito",
     "state": "WV",
     "status": "incumbent",
     "image": "../images/gallery/capito.jpeg",
     "challenger": "Paula Jean Swearengin",
     "tw1tter": "https://twitter.com/paulajean2020",
-    "website": "paulajean.com",
+    "website": "http://paulajean.com",
     "actblue": "https://secure.actblue.com/donate/bnc-paulajean2020"
   },
   {
-    "title": "Cynthia Lummis",
+    "villain": "Cynthia Lummis",
     "twitter": "https://twitter.com/CynthiaMLummis",
     "state": "WY",
     "status": "candidate",
     "image": "../images/gallery/lummis.jpeg",
     "challenger": "Yana Ludwig",
     "tw1tter": "https://twitter.com/ForWyo",
-    "website": "yana4wyo.com",
+    "website": "http://yana4wyo.com",
     "actblue": "https://secure.actblue.com/entity/fundraisers/92523"
   }]
 }

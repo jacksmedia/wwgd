@@ -2,10 +2,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import IO from 'components/io';
 import Img from 'gatsby-image';
-import { Container, Title, Copy } from './item.css';
+import { Container, Title, Copy, Halver } from './item.css';
 
 const Item = ({
-  title,
+  villain,
   state,
   twitter,
   image,
@@ -19,21 +19,27 @@ const Item = ({
     {({ isVisible }) => (
       <Container isVisible={isVisible}>
         <figure>
-          <Img fluid={image ? image.childImageSharp.fluid : {}} alt={title} />
+          <Img fluid={image ? image.childImageSharp.fluid : {}} alt={villain} />
           <figcaption>
-            <p>Hi, I&apos;m </p>
-            <Title>{title},</Title>
+            <Title>{villain},</Title>
             <Title>
               {state}&nbsp;{status}
             </Title>
-            <Copy>{twitter}</Copy>
+            <Copy>
+              <a href={twitter} target="_blank" rel="noopener noreferrer">
+                {twitter}
+              </a>
+            </Copy>
           </figcaption>
           <figcaption>
-            <Title>Donate to destroy me!</Title>
-            {actblue}
+            <Title>
+              <a href={actblue} target="_blank" rel="noopener noreferrer">Donate to Destroy me</a>
+            </Title>
             <Copy>My challenger: {challenger}</Copy>
-            <Copy>Their website: {website}</Copy>
-            <Copy>Their twitter: {tw1tter}</Copy>
+            <Halver>
+              <Copy><a href={website} target="_blank" rel="noopener noreferrer">website</a></Copy>
+              <Copy><a href={tw1tter} target="_blank" rel="noopener noreferrer">twitter</a></Copy>
+            </Halver>
           </figcaption>
         </figure>
       </Container>
@@ -42,7 +48,7 @@ const Item = ({
 );
 
 Item.propTypes = {
-  title: PropTypes.string,
+  villain: PropTypes.string,
   twitter: PropTypes.string,
   state: PropTypes.string,
   status: PropTypes.string,

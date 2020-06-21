@@ -52,7 +52,7 @@ export const query = graphql`
         }
       }
       gallery {
-        title
+        villain
         twitter
         state
         status
