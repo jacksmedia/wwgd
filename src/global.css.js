@@ -90,9 +90,16 @@ export default createGlobalStyle`
 
   p {
     margin-bottom: 1rem;
+    margin-top: 0.5rem;
   }
   
   .circlized {
     border-radius: 50%;
+  }  
+
+  .twitter-icon {
+    max-width: 10vw;
+    max-height: 10vw;
   }
+
 `;

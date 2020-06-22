@@ -45,6 +45,13 @@ export const query = graphql`
           }
         }
       }
+      shrugql {
+        childImageSharp {
+          fluid(maxHeight: 150, quality: 90) {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
       content {
         childMarkdownRemark {
           html

@@ -2,6 +2,7 @@
   "title": "Home WWGD 2020",
   "content": "intro.md",
   "tat": "../images/the-actual-tweet.png",
+  "shrugql": "../images/twitter.svg",
   "gallery": [{
     "villain": "Dan Sullivan",
     "twitter": "https://twitter.com/SenDanSullivan",

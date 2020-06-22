@@ -32,7 +32,7 @@ export const Halver = styled.div`
 
 export const Copy = styled.p`
   color: aliceblue;
-  margin: 0 0.2rem 0.2rem;
+  margin: 0.3rem 0.2rem 0.2rem;
   font-size: 1.2rem;
 
   ${MEDIA.TABLET`

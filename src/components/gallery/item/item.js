@@ -7,6 +7,7 @@ import { Container, Title, Copy, Halver } from './item.css';
 const Item = ({
   villain,
   state,
+  shrugql,
   twitter,
   image,
   status,
@@ -30,6 +31,10 @@ const Item = ({
               <Title>
                 {state}&nbsp;{status}
               </Title>
+              <Img fixed={shrugql ? shrugql.childImageSharp.fixed : {}}
+                alt="twitter logo"
+                className="twitter-icon"
+              />
               <Copy>
                 <a href={twitter} target="_blank" rel="noopener noreferrer">
                   {twitter}
@@ -38,19 +43,23 @@ const Item = ({
             </figcaption>
           </figure>
           <figure>
-            <Title>
-              <a href={actblue} target="_blank" rel="noopener noreferrer">Donate to Destroy me</a>
-            </Title>
             <Img fluid={logo ? logo.childImageSharp.fluid : {}}
               alt={challenger}
             />
             <Copy>My challenger: {challenger}</Copy>
             <Halver>
               <Copy><a href={website} target="_blank" rel="noopener noreferrer">website</a></Copy>
+              <Img fluid={shrugql ? shrugql.childImageSharp.fluid : {}}
+                alt="twitter logo"
+                className="twitter-icon"
+              />
               <Copy><a href={tw1tter} target="_blank" rel="noopener noreferrer">twitter</a></Copy>
             </Halver>
           </figure>
         </Halver>
+        <Title>
+          <a href={actblue} target="_blank" rel="noopener noreferrer">Donate to Destroy me</a>
+        </Title>
       </Container>
     )}
   </IO>
@@ -59,6 +68,7 @@ const Item = ({
 Item.propTypes = {
   villain: PropTypes.string,
   twitter: PropTypes.string,
+  shrugql: PropTypes.object.isRequired,
   state: PropTypes.string,
   status: PropTypes.string,
   image: PropTypes.object.isRequired,
