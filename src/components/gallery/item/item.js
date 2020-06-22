@@ -13,38 +13,44 @@ const Item = ({
   challenger,
   tw1tter,
   website,
+  logo,
   actblue,
 }) => (
   <IO rootMargin="-50px">
     {({ isVisible }) => (
       <Container isVisible={isVisible}>
-        <figure>
-          <Img fluid={image ? image.childImageSharp.fluid : {}}
-            alt={villain}
-            className="circlized"
-          />
-          <figcaption>
-            <Title>{villain}</Title>
-            <Title>
-              {state}&nbsp;{status}
-            </Title>
-            <Copy>
-              <a href={twitter} target="_blank" rel="noopener noreferrer">
-                {twitter}
-              </a>
-            </Copy>
-          </figcaption>
-          <figcaption>
+        <Halver>
+          <figure>
+            <Img fluid={image ? image.childImageSharp.fluid : {}}
+              alt={villain}
+              className="circlized"
+            />
+            <figcaption>
+              <Title>{villain}</Title>
+              <Title>
+                {state}&nbsp;{status}
+              </Title>
+              <Copy>
+                <a href={twitter} target="_blank" rel="noopener noreferrer">
+                  {twitter}
+                </a>
+              </Copy>
+            </figcaption>
+          </figure>
+          <figure>
             <Title>
               <a href={actblue} target="_blank" rel="noopener noreferrer">Donate to Destroy me</a>
             </Title>
+            <Img fluid={logo ? logo.childImageSharp.fluid : {}}
+              alt={challenger}
+            />
             <Copy>My challenger: {challenger}</Copy>
             <Halver>
               <Copy><a href={website} target="_blank" rel="noopener noreferrer">website</a></Copy>
               <Copy><a href={tw1tter} target="_blank" rel="noopener noreferrer">twitter</a></Copy>
             </Halver>
-          </figcaption>
-        </figure>
+          </figure>
+        </Halver>
       </Container>
     )}
   </IO>
@@ -59,6 +65,7 @@ Item.propTypes = {
   challenger: PropTypes.string,
   tw1tter: PropTypes.string,
   website: PropTypes.string,
+  logo: PropTypes.object.isRequired,
   actblue: PropTypes.string,
 };
 
