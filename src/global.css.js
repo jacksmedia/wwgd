@@ -98,8 +98,8 @@ export default createGlobalStyle`
   }  
 
   .twitter-icon {
-    max-width: 10vw;
-    max-height: 10vw;
+    width: 10vw;
+    height: 10vw;
   }
 
 `;

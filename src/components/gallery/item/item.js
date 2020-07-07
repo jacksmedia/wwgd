@@ -3,11 +3,12 @@ import PropTypes from 'prop-types';
 import IO from 'components/io';
 import Img from 'gatsby-image';
 import { Container, Title, Copy, Halver } from './item.css';
+import twitterbird from './twitter.svg'
+import www from './globe_icon.svg'
 
 const Item = ({
   villain,
   state,
-  shrugql,
   twitter,
   image,
   status,
@@ -31,15 +32,15 @@ const Item = ({
               <Title>
                 {state}&nbsp;{status}
               </Title>
-              <Img fixed={shrugql ? shrugql.childImageSharp.fixed : {}}
-                alt="twitter logo"
-                className="twitter-icon"
-              />
-              <Copy>
+              <div>
                 <a href={twitter} target="_blank" rel="noopener noreferrer">
-                  {twitter}
+                  <img
+                    src={twitterbird}
+                    alt="twitter outlink to GOP asset, beware hatespeech"
+                    style={{ width: '48px', height: '48px' }}
+                  />
                 </a>
-              </Copy>
+                </div>
             </figcaption>
           </figure>
           <figure>
@@ -48,12 +49,23 @@ const Item = ({
             />
             <Copy>My challenger: {challenger}</Copy>
             <Halver>
-              <Copy><a href={website} target="_blank" rel="noopener noreferrer">website</a></Copy>
-              <Img fluid={shrugql ? shrugql.childImageSharp.fluid : {}}
-                alt="twitter logo"
-                className="twitter-icon"
-              />
-              <Copy><a href={tw1tter} target="_blank" rel="noopener noreferrer">twitter</a></Copy>
+              <Copy><a href={website} target="_blank" rel="noopener noreferrer">
+                <img
+                  src={www}
+                  alt="website outlink"
+                  style={{ width: '48px', height: '48px' }}
+                />
+              </a>
+              </Copy>
+              <Copy>
+              <a href={tw1tter} target="_blank" rel="noopener noreferrer">
+                <img
+                  src={twitterbird}
+                  alt="twitter outlink"
+                  style={{ width: '48px', height: '48px' }}
+                />
+              </a>
+              </Copy>
             </Halver>
           </figure>
         </Halver>
@@ -68,7 +80,6 @@ const Item = ({
 Item.propTypes = {
   villain: PropTypes.string,
   twitter: PropTypes.string,
-  shrugql: PropTypes.object.isRequired,
   state: PropTypes.string,
   status: PropTypes.string,
   image: PropTypes.object.isRequired,

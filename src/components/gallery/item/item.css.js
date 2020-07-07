@@ -8,7 +8,7 @@ export const Container = styled.div`
   border-radius: 10px;
   position: relative;
   text-align: center;
-  color: #fff;
+  color: #firebrick;
   transition: background-color 3.3s ease;
 
   background-color: ${({ isVisible }) => (isVisible ? accent : ' #333')};
