@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 import IO from 'components/io';
 import Img from 'gatsby-image';
 import { Container, Title, Copy, Halver } from './item.css';
-import twitterbird from './twitter.svg'
-import www from './globe_icon.svg'
+import twitterbird from './twitter.svg';
+import www from './globe_icon.svg';
 
 const Item = ({
   villain,
@@ -23,7 +23,8 @@ const Item = ({
       <Container isVisible={isVisible}>
         <Halver>
           <figure>
-            <Img fluid={image ? image.childImageSharp.fluid : {}}
+            <Img
+              fluid={image ? image.childImageSharp.fluid : {}}
               alt={villain}
               className="circlized"
             />
@@ -40,37 +41,41 @@ const Item = ({
                     style={{ width: '48px', height: '48px' }}
                   />
                 </a>
-                </div>
+              </div>
             </figcaption>
           </figure>
           <figure>
-            <Img fluid={logo ? logo.childImageSharp.fluid : {}}
+            <Img
+              fluid={logo ? logo.childImageSharp.fluid : {}}
               alt={challenger}
             />
             <Copy>My challenger: {challenger}</Copy>
             <Halver>
-              <Copy><a href={website} target="_blank" rel="noopener noreferrer">
-                <img
-                  src={www}
-                  alt="website outlink"
-                  style={{ width: '48px', height: '48px' }}
-                />
-              </a>
+              <Copy>
+                <a href={website} target="_blank" rel="noopener noreferrer">
+                  <img
+                    src={www}
+                    alt="website outlink"
+                    style={{ width: '48px', height: '48px' }}
+                  />
+                </a>
               </Copy>
               <Copy>
-              <a href={tw1tter} target="_blank" rel="noopener noreferrer">
-                <img
-                  src={twitterbird}
-                  alt="twitter outlink"
-                  style={{ width: '48px', height: '48px' }}
-                />
-              </a>
+                <a href={tw1tter} target="_blank" rel="noopener noreferrer">
+                  <img
+                    src={twitterbird}
+                    alt="twitter outlink"
+                    style={{ width: '48px', height: '48px' }}
+                  />
+                </a>
               </Copy>
             </Halver>
           </figure>
         </Halver>
         <Title>
-          <a href={actblue} target="_blank" rel="noopener noreferrer">Donate to Destroy me</a>
+          <a href={actblue} target="_blank" rel="noopener noreferrer">
+            Donate to Destroy me
+          </a>
         </Title>
       </Container>
     )}
