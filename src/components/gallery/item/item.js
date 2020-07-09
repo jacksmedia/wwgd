@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import IO from 'components/io';
 import Img from 'gatsby-image';
-import { Container, Title, Copy, Halver } from './item.css';
+import { Container, Title, Copy, Halver, Call } from './item.css';
 import twitterbird from './twitter.svg';
 import www from './globe_icon.svg';
 
@@ -72,11 +72,11 @@ const Item = ({
             </Halver>
           </figure>
         </Halver>
-        <Title>
-          <a href={actblue} target="_blank" rel="noopener noreferrer">
+        <a href={actblue} target="_blank" rel="noopener noreferrer">
+          <Call>
             Donate to Destroy me
-          </a>
-        </Title>
+          </Call>
+        </a>
       </Container>
     )}
   </IO>

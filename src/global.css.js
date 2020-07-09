@@ -69,6 +69,7 @@ export default createGlobalStyle`
 
   a {
     color: ${linkcolor};
+    text-decoration: none;
   }
 
   pre {
@@ -100,6 +101,13 @@ export default createGlobalStyle`
   .twitter-icon {
     width: 10vw;
     height: 10vw;
+  }
+
+  .no-confidence {
+    background: 
+      url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><foreignObject width=%22100px%22 height=%22100px%22><div xmlns=%22http://www.w3.org/1999/xhtml%22 style=%22color:transparent;text-shadow: 0 0 %23e42100, -2px 2px 0 black;font-size:70px%22>🚫</div></foreignObject></svg>"), 
+    white; 
+    background-size: 60px 60px;
   }
 
 `;

@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import { accent } from 'constants/theme';
+import styled, { keyframes } from 'styled-components';
+import { accent, linkcolor } from 'constants/theme';
 import MEDIA from 'helpers/mediaTemplates';
 
 export const Container = styled.div`
@@ -20,6 +20,21 @@ export const Title = styled.div`
   font-weight: 500;
   font-family: playfair-display;
   margin: 0.5rem 1rem 0.5rem;
+`;
+
+export const pulsecolor = keyframes`
+    0%   {color: white;}
+    50%  {color: ${linkcolor};}
+    100% {color: white;}
+`;
+
+export const Call = styled.div`
+  display: block;
+  font-size: 3rem;
+  font-weight: 800;
+  font-family: montserrat;
+  margin: 0.5rem 1rem 0.5rem;
+  animation: ${pulsecolor} 10s infinite;
 `;
 
 export const Halver = styled.div`
