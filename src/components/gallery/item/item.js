@@ -29,10 +29,8 @@ const Item = ({
               className="circlized"
             />
             <figcaption>
-              <Title>{villain}</Title>
-              <Title>
-                {state}&nbsp;{status}
-              </Title>
+              <Copy>{villain}</Copy>
+              <Copy>{state}&nbsp;{status}</Copy>
               <div>
                 <a href={twitter} target="_blank" rel="noopener noreferrer">
                   <img

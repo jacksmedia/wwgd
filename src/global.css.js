@@ -103,6 +103,13 @@ export default createGlobalStyle`
     height: 10vw;
   }
 
+  .copy-for-modal {
+    color: black;
+    font-family: playfair-display;
+    font-size: 2.2rem;
+    line-height: 3.3rem;
+  }
+
   .no-confidence {
     background: 
       url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><foreignObject width=%22100px%22 height=%22100px%22><div xmlns=%22http://www.w3.org/1999/xhtml%22 style=%22color:transparent;text-shadow: 0 0 %23e42100, -2px 2px 0 black;font-size:70px%22>🚫</div></foreignObject></svg>"), 

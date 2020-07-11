@@ -15,8 +15,11 @@ const Index = ({ data }) => (
         {data.homeJson.content.childMarkdownRemark.rawMarkdownBody}
       </Title>
       <Modal>
-        <p>
-          Every senator on this page supported Trump as members of the 115th and/or 116th (2017-2020) Congress. They have failed to defend American lives, health, justice, and even our national sovereignty. They are traitors and scum, and they know it. Destroy them!
+        <p className="copy-for-modal">
+          Every senator on this page supported Trump as members of the 115th and/or 116th (2017-2020) Congress.
+          They have failed to defend American lives, health, justice, and even our national sovereignty.
+          They are traitors and scum, and they know it.
+          Destroy them!
         </p>
         <Img
           fluid={

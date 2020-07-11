@@ -46,9 +46,10 @@ export const Halver = styled.div`
 `;
 
 export const Copy = styled.p`
-  color: aliceblue;
   margin: 0.3rem 0.2rem 0.2rem;
+  font-family: montserrat;
   font-size: 1.2rem;
+  color: aliceblue;
 
   ${MEDIA.TABLET`
     margin-bottom: 4rem;
