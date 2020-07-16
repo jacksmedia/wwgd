@@ -2,15 +2,31 @@ import styled, { keyframes } from 'styled-components';
 import { accent, linkcolor } from 'constants/theme';
 import MEDIA from 'helpers/mediaTemplates';
 
+export const invisibled = keyframes`
+  0% {opacity: 1;}
+  100% {
+    visibility: hidden;
+    opacity: 0;
+  }
+`;
+export const fadeIn = keyframes`
+  0% {opacity: 0;}
+  100% {
+    visibility: visible;
+    opacity: 1;
+  }
+`;
 export const Container = styled.div`
   padding: 3rem;
   margin: 3rem;
   border-radius: 10px;
   position: relative;
   text-align: center;
+  background-color: maroon;
+  animation: 3s ${({ isVisible }) => (isVisible ? fadeIn : invisibled)};
+  animation-fill-mode: forwards;
   
-  transition: background-color 3.3s ease;
-  background-color: ${({ isVisible }) => (isVisible ? accent : ' #333')};
+  visibility: hidden;
 `;
 
 export const Title = styled.div`
@@ -20,6 +36,7 @@ export const Title = styled.div`
   font-family: playfair-display;
   margin: 0.5rem 1rem 0.5rem;
 `;
+
 
 export const pulsecolor = keyframes`
     0%   {color: white;}
