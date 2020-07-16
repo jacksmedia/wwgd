@@ -3,14 +3,13 @@ import { accent, linkcolor } from 'constants/theme';
 import MEDIA from 'helpers/mediaTemplates';
 
 export const Container = styled.div`
-  padding: 4rem;
-  margin: 4rem;
+  padding: 3rem;
+  margin: 3rem;
   border-radius: 10px;
   position: relative;
   text-align: center;
-  color: #firebrick;
+  
   transition: background-color 3.3s ease;
-
   background-color: ${({ isVisible }) => (isVisible ? accent : ' #333')};
 `;
 

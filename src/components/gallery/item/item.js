@@ -29,17 +29,10 @@ const Item = ({
               className="circlized"
             />
             <figcaption>
-              <Copy>{villain}</Copy>
+              <a href={twitter} target="_blank" rel="noopener noreferrer">
+                <Title>{villain}</Title>
+              </a>
               <Copy>{state}&nbsp;{status}</Copy>
-              <div>
-                <a href={twitter} target="_blank" rel="noopener noreferrer">
-                  <img
-                    src={twitterbird}
-                    alt="twitter outlink to GOP asset, beware hatespeech"
-                    style={{ width: '48px', height: '48px' }}
-                  />
-                </a>
-              </div>
             </figcaption>
           </figure>
           <figure>
